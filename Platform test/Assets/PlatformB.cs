@@ -31,6 +31,8 @@ public class PlatformB : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x - platformWidthB - distanceBetweenB, transform.position.y, transform.position.z);
             Instantiate(thePlatformB, transform.position, transform.rotation);
+
+            
         }
     }
 }
