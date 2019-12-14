@@ -6,6 +6,9 @@ public class DestroyB : MonoBehaviour
 {
 
     public GameObject platformDestructB;
+    public GameObject platformSpawnerRight;
+    public int distanceBet;
+
 
 
 
@@ -20,6 +23,7 @@ public class DestroyB : MonoBehaviour
     {
         if (transform.position.x > platformDestructB.transform.position.x)
         {
+            platformSpawnerRight.transform.position = new Vector3(platformSpawnerRight.transform.position.x - distanceBet, platformSpawnerRight.transform.position.y, 0);
             Destroy(gameObject);
         }
     }

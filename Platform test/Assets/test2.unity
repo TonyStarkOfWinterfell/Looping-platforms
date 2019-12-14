@@ -167,6 +167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestructB: {fileID: 1273767480}
+  platformSpawnerRight: {fileID: 1785134874}
+  distanceBet: 6
 --- !u!114 &80170130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,7 +182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestruct: {fileID: 1784833912}
-  platformLeft: {fileID: 273188958}
+  platformSpawnerLeft: {fileID: 273188958}
+  distanceBet: 6
 --- !u!61 &80170131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -378,7 +381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestruct: {fileID: 1784833912}
-  platformLeft: {fileID: 273188958}
+  platformSpawnerLeft: {fileID: 273188958}
+  distanceBet: 6
 --- !u!114 &235891939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,6 +396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestructB: {fileID: 1273767480}
+  platformSpawnerRight: {fileID: 1785134874}
+  distanceBet: 6
 --- !u!1 &273188958
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thePlatformB: {fileID: 1458137001}
   generationPointB: {fileID: 1377742744}
-  distanceBetweenB: 3
+  distanceBetweenB: 6
 --- !u!4 &273188960
 Transform:
   m_ObjectHideFlags: 0
@@ -560,7 +566,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestruct: {fileID: 1784833912}
-  platformLeft: {fileID: 273188958}
+  platformSpawnerLeft: {fileID: 273188958}
+  distanceBet: 6
 --- !u!114 &307191269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,6 +581,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestructB: {fileID: 1273767480}
+  platformSpawnerRight: {fileID: 1785134874}
+  distanceBet: 6
 --- !u!1 &559519598
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,6 +902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestructB: {fileID: 1273767480}
+  platformSpawnerRight: {fileID: 1785134874}
+  distanceBet: 6
 --- !u!114 &1458137004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,7 +917,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformDestruct: {fileID: 1784833912}
-  platformLeft: {fileID: 273188958}
+  platformSpawnerLeft: {fileID: 273188958}
+  distanceBet: 6
 --- !u!61 &1458137005
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1253,7 +1265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thePlatform: {fileID: 1458137001}
   generationPoint: {fileID: 1518157510}
-  distanceBetween: 3
+  distanceBetween: 6
   cam: {fileID: 1433643104}
 --- !u!4 &1785134876
 Transform:

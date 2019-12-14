@@ -6,7 +6,8 @@ public class DestroyF : MonoBehaviour
 {
 
     public GameObject platformDestruct;
-    public GameObject platformLeft;
+    public GameObject platformSpawnerLeft;   
+    public int distanceBet;
 
 
 
@@ -14,7 +15,7 @@ public class DestroyF : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        platformDestruct = GameObject.Find("PlatDestructF");
+        platformDestruct = GameObject.Find("PlatDestructF");        
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class DestroyF : MonoBehaviour
     {
         if (transform.position.x < platformDestruct.transform.position.x)
         {
-            platformLeft.transform.position = new Vector3(platformLeft.transform.position.x + 6.797f, platformLeft.transform.position.y, 0);
+            platformSpawnerLeft.transform.position = new Vector3(platformSpawnerLeft.transform.position.x + distanceBet, platformSpawnerLeft.transform.position.y, 0);
             Destroy(gameObject);            
         }
     }
